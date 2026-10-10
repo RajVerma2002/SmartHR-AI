@@ -97,7 +97,7 @@ PORT=5000
 MONGO_URI=mongodb://127.0.0.1:27017/smarthr_ai
 JWT_SECRET=replace_with_a_long_random_string
 GEMINI_API_KEY=your_gemini_api_key_here   # optional
-GEMINI_MODEL=gemini-1.5-flash
+GEMINI_MODEL=gemini-2.5-flash
 CLIENT_URL=http://localhost:5173
 ```
 
@@ -136,9 +136,9 @@ Created by `npm run seed`. On the login page you can also click **Quick demo log
 | Role | Email | Password |
 | --- | --- | --- |
 | Super Admin | `admin@smarthr.com` | `admin123` |
-| HR Manager | `hr@smarthr.com` | `hr123` |
-| Employee | `employee@smarthr.com` | `emp123` |
-| Applicant | `applicant@smarthr.com` | `app123` |
+| HR Manager | `hr@smarthr.com` | `hr1234` |
+| Employee | `employee@smarthr.com` | `emp1234` |
+| Applicant | `applicant@smarthr.com` | `app1234` |
 
 > For the full demo (Employees, Payroll, Applicants, AI screening, Interview generator), log in as **HR Manager** or **Super Admin**.
 

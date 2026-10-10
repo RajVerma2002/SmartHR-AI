@@ -10,8 +10,8 @@ import { Spinner } from "@/components/ui/spinner";
 
 const demoAccounts = [
   { label: "Super Admin", email: "admin@smarthr.com", password: "admin123" },
-  { label: "HR Manager", email: "hr@smarthr.com", password: "hr123" },
-  { label: "Employee", email: "employee@smarthr.com", password: "emp123" },
+  { label: "HR Manager", email: "hr@smarthr.com", password: "hr1234" },
+  { label: "Employee", email: "employee@smarthr.com", password: "emp1234" },
 ];
 
 export default function Login() {
