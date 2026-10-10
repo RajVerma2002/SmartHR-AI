@@ -1,5 +1,6 @@
+// Load .env before any other module reads process.env at import time
+import "dotenv/config";
 import express from "express";
-import dotenv from "dotenv";
 import cors from "cors";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -17,7 +18,6 @@ import applicantRoutes from "./routes/applicantRoutes.js";
 import aiRoutes from "./routes/aiRoutes.js";
 import dashboardRoutes from "./routes/dashboardRoutes.js";
 
-dotenv.config();
 connectDB();
 
 const __filename = fileURLToPath(import.meta.url);

@@ -19,3 +19,6 @@ backend/uploads/*
 *.log
 .DS_Store
 .vscode/
+
+# real resumes used for local AI screening tests (personal data)
+backend/resumes/

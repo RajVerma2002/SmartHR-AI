@@ -152,6 +152,17 @@ Created by `npm run seed`. On the login page you can also click **Quick demo log
 
 Without a key, the resume screener, interview generator, and chatbot still work but return clearly-labeled **sample** output, so the UI is always demonstrable.
 
+### Testing screening on real resumes
+
+Put PDF resumes in `backend/resumes/` (gitignored), then run:
+
+```bash
+cd backend
+npm run screen -- resumes "Full Stack Developer"
+```
+
+For each file it saves the extracted text (to check reading order on multi-column layouts), flags PDFs with no extractable text (scanned images), and writes `resumes/_screening/results.csv` with the AI score, recommendation and skills next to empty `my_score` / `my_notes` columns for your own assessment.
+
 ---
 
 ## 📡 API Reference (summary)
