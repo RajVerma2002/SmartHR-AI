@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+*/node_modules/
+
+# env
+.env
+*/.env
+!.env.example
+
+# build
+dist/
+build/
+
+# uploads (keep folder, ignore files)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# logs & misc
+*.log
+.DS_Store
+.vscode/
